@@ -658,12 +658,10 @@ input::-ms-clear {
     }
 }
 
-@supports (-moz-appearance:meterbar) and (cursor:zoom-in) {
-}
+@supports (-moz-appearance:meterbar) and (cursor:zoom-in) {}
 
 @media (min-width:1000px) and (max-width:1249px) {
-    @supports (-moz-appearance:meterbar) and (cursor:zoom-in) {
-    }
+    @supports (-moz-appearance: meterbar) and (cursor:zoom-in) {}
 }
 
 .product_units .unit--wrapper {
@@ -837,7 +835,7 @@ input::-ms-clear {
 }
 
 @supports (-moz-appearance:meterbar) and (background-blend-mode:difference, normal) {
-    @media (min-width:0px) and (max-width:999px) {
+    @media (min-width: 0px) and (max-width:999px) {
         .product_horizontal {
             width: 240px!important;
             height: 545px!important
@@ -921,6 +919,8 @@ html {
 }
 
 
+
+
 /**
  * Remove default margin.
  */
@@ -929,6 +929,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
 
 
 /* HTML5 display definitions
@@ -945,6 +947,8 @@ body {
 main {
     display: block;
 }
+
+
 
 
 /**
@@ -978,6 +982,8 @@ a {
 }
 
 
+
+
 /**
  * Improve readability of focused elements when they are also in an
  * active/hover state.
@@ -987,6 +993,8 @@ a:active,
 a:hover {
     outline: 0;
 }
+
+
 
 
 /* Text-level semantics
@@ -1042,6 +1050,8 @@ img {
 }
 
 
+
+
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
@@ -1049,6 +1059,8 @@ img {
 svg:not(:root) {
     overflow: hidden;
 }
+
+
 
 
 /* Grouping content
@@ -1102,6 +1114,8 @@ input {
 }
 
 
+
+
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
@@ -1139,6 +1153,8 @@ input::-moz-focus-inner {
 }
 
 
+
+
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
@@ -1147,6 +1163,8 @@ input::-moz-focus-inner {
 input {
     line-height: normal;
 }
+
+
 
 
 /**
@@ -1230,6 +1248,8 @@ html {
 }
 
 
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -1249,6 +1269,8 @@ html {
 }
 
 
+
+
 /*
  * A better looking default horizontal rule
  */
@@ -1264,6 +1286,8 @@ img,
 svg {
     vertical-align: middle;
 }
+
+
 
 
 /*
@@ -1387,6 +1411,8 @@ svg {
 
 
 
+
+
 /* 
  * Stepper v3.0.8 - 2015-04-04 
  * A jQuery plugin for cross browser number inputs. Part of the Formstone Library. 
@@ -1458,6 +1484,8 @@ svg {
     }
 }
 
+
+
 /* latin-ext */
 
 @font-face {
@@ -1467,6 +1495,8 @@ svg {
     src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
     unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
+
+
 
 
 /* latin */
@@ -1480,6 +1510,8 @@ svg {
 }
 
 
+
+
 /* latin-ext */
 
 @font-face {
@@ -1489,6 +1521,8 @@ svg {
     src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/ObQr5XYcoH0WBoUxiaYK3_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
     unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
+
+
 
 
 /* latin */
